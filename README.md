@@ -24,12 +24,13 @@ This script logs into Sched.com, lists your events, and downloads all session at
 The script will automatically download and manage the correct Edge WebDriver for you.
 
 ## Features
-- Secure login prompt (credentials not stored)
-- Event selection
+- Username, password and event URL saved in cred.txt file for easy re-run (delete this after you are done!)
+- Event files downloaded into folders with session name and speaker names
 - Downloads all session attachments into a subfolder named after the event
 - Progress bar for downloads
-- Sleek, user-friendly terminal output
+- User-friendly terminal output
 
 ---
 
 If you encounter any issues with Edge WebDriver, ensure Edge is up to date. For questions or feature requests, let me know!
+Tested on MacOS
